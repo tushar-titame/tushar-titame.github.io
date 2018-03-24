@@ -144,9 +144,9 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: #808080;
+	color: #474848;
 	font-size: 13px;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 2px;
 	margin-left: 40px;
 }
@@ -293,27 +293,41 @@ ul li {
 	$Banner
 ========================================================================== */
 .banner {
-	background-image: url(../images/tushar_titame.jpg);
+	/*background-image: url(../images/tushar_titame.jpg);*/
 	/*background-position: center top;*/
-	background-repeat: no-repeat;
+/*	background-repeat: no-repeat;
 	-moz-background-size: 36%;
 	-o-background-size: 35%;
 	-webkit-background-size: 35%;
-	background-size: 35%;
+	background-size: 35%;*/
 	background-color: #dff6fe;
 	min-height: 750px;
+	background-color: #e5e5e5;
+}
+.banner-picture{
+  padding-top: 40%;
+  padding-left: 35%;
+}
+.my-picture{
+	background: no-repeat;
+  height: 300px;
+  width: 290px;
+  border-radius: 50%;
 }
 .banner-inner-wrapper {
 	float: right;
 }
 .banner-text {
 	padding-top: 45%;
+	font-style: italic;
+	font-family: cursive;
 }
-.banner-text h1 {
-	color: #393939;
-	font-family: "Open Sans", sans-serif;
-	font-size: 23px;
-	font-weight: 400;
+.banner-text h3 {
+	font-size: 26px;
+  color: #474848;
+  font-weight: 300;
+  font-style: italic;
+  font-family: cursive, serif, sans-serif;
 }
 .banner-text p {
 	color: #393939;
@@ -341,13 +355,16 @@ ul li {
 	text-transform: uppercase;
 }
 .intro-content p {
-	font-size: 12px;
-	letter-spacing: 1px;
+	font-size: 13px;
+	letter-spacing: 2px;
 	line-height: 19px;
 }
 .intro-content li {
 	line-height: 30px;
 	letter-spacing: 1px;
+}
+.expertise {
+	float: right;
 }
 /* ------------------------------------------------------------------------------
 	 Works
@@ -473,4 +490,7 @@ ul li {
 	color: #e84545;
 	font-size: 12px;
 	margin: 0 2px;
+}
+.social_links {
+	float: right;
 }
