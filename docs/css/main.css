@@ -294,12 +294,13 @@ ul li {
 ========================================================================== */
 .banner {
 	background-image: url(../images/tushar_titame.jpg);
-	background-position: center top;
+	/*background-position: center top;*/
 	background-repeat: no-repeat;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-webkit-background-size: cover;
-	background-size: cover;
+	-moz-background-size: 36%;
+	-o-background-size: 35%;
+	-webkit-background-size: 35%;
+	background-size: 35%;
+	background-color: #dff6fe;
 	min-height: 750px;
 }
 .banner-inner-wrapper {
