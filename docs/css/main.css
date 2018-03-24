@@ -305,17 +305,17 @@ ul li {
 	background-color: #e5e5e5;
 }
 .banner-picture{
-  padding-top: 40%;
-  padding-left: 35%;
+  padding-top: 39%;
 }
 .my-picture{
 	background: no-repeat;
   height: 300px;
   width: 290px;
   border-radius: 50%;
+  margin: 0 35%;
 }
 .banner-inner-wrapper {
-	float: right;
+	margin-left: 6%;
 }
 .banner-text {
 	padding-top: 45%;
@@ -343,12 +343,10 @@ ul li {
 .intro-content {
 	margin-top: 20px;
 }
-.intro-content h1 {
-	font-size: 55px;
-	font-weight: 700;
-	letter-spacing: -3px;
+.about-section {
+	margin-left: 1%;
 }
-.intro-content h4 {
+.about-section h4, .expertise h4 {
 	font-size: 15px;
 	letter-spacing: 3px;
 	font-weight: 700;
